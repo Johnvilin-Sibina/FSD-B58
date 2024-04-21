@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+    color: white;
+}
+.container{
+    margin: 50px;
+    border: 3px solid red;
+    display: flex;
+    width: auto;
+    height: 500px;
+    color: aqua;
+}
+.style{
+    margin:25px;
+    padding:25px;
+    border: 3px solid red;
+    height: fit-content;
+}
+/* .demo{
+    position: fixed;
+    top: 100px;
+    left: 100px;
+} */
+
+/* .demo{
+    position: sticky;
+    top: 10px;
+} */
+.test{
+    position: relative;
+}
