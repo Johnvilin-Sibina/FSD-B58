@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+}
+div{
+    color: black;
+    background-color: aqua;
+    text-align: center;
+    font-size: xx-large;
+    border: 2px solid red;
+    padding: 20px;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 25px;
+    margin-top: 100px;
+    margin: 20%;
+}
+/* .grid1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+} */
+.display{
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+.equal{
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+input{
+    background-color: aqua;
+    border: 2px solid red;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
