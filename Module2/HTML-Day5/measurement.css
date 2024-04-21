@@ -1,0 +1,16 @@
+/* body{
+    font-size: 32px;
+}
+p{
+    font-size: 2em;
+} */
+.base{
+    border: 5px solid black;
+    width: 50%;
+    /* width: 50vw; */
+}
+.child{
+    border: 3px solid red;
+    /* width: 50%; */
+    width: 50vw;
+}
